@@ -1,6 +1,6 @@
 code:
 
-var i, num,fact;
+var i, n,fact;
 f=1;
 n=process.argv[2];
 for(i=1; i<=n; i++)  
