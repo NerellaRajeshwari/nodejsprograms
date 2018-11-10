@@ -1,6 +1,6 @@
 code:
 function Min(a){
-    var flag=0;
+   
     var min=Number(a[2]);
     for(var i=1;i<a.length;i++) 
     {
