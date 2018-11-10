@@ -4,9 +4,8 @@ function Min(a){
     var min=Number(a[2]);
     for(var i=1;i<a.length;i++) 
     {
-     var a=Number(a[i]);
      if(a<min)
-       min=temp;
+       min=Number(a[i]);
     }
     console.log(" Minimum element:",min);
   }
